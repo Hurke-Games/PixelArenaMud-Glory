@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <title>Mud &amp; Glory: Arena Fighter</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="game-shell">
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="screen active">
+      <div class="loading-box wooden-box">
+        <h1 class="pixel-title">MUD &amp; GLORY</h1>
+        <p class="subtitle">ARENA FIGHTER</p>
+        <div class="progress-track">
+          <div id="loading-bar" class="progress-fill"></div>
+        </div>
+        <p id="loading-text">Polishing butter knives... 0%</p>
+      </div>
+    </div>
+
+    <!-- Main 16:9 Stage -->
+    <div id="stage-wrapper">
+      <canvas id="game-canvas" width="960" height="540"></canvas>
+
+      <!-- Dynamic DOM UI Layer over Canvas (for crisp touch/mouse buttons & modals) -->
+      <div id="ui-overlay"></div>
+
+      <!-- Modal Container -->
+      <div id="modal-backdrop" class="hidden">
+        <div id="modal-content" class="wooden-box"></div>
+      </div>
+
+      <!-- Toast / Notification Banner -->
+      <div id="toast-container"></div>
+    </div>
+  </div>
+
+  <!-- Ordered Scripts (works on both http:// and file://) -->
+  <script defer src="js/assets.js"></script>
+  <script defer src="js/audio.js"></script>
+  <script defer src="js/data.js"></script>
+  <script defer src="js/storage.js"></script>
+  <script defer src="js/character.js"></script>
+  <script defer src="js/combat.js"></script>
+  <script defer src="js/ui.js"></script>
+  <script defer src="js/main.js"></script>
+</body>
+</html>

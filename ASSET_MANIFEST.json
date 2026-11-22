@@ -1,0 +1,537 @@
+{
+  "manifest_version": "1.7.0",
+  "project": "Mud & Glory: Arena Fighter",
+  "total_completed_assets": 94,
+  "art_direction": {
+    "style": "2D 32-bit pixel art",
+    "outline": "chunky 1px-2px black outlines",
+    "palette": "vibrant medieval-fantasy",
+    "perspective": "strictly front-facing, deadpan expressions",
+    "isolation": "isolated assets centered on solid flat high-contrast background or transparent"
+  },
+  "quota_status": {
+    "completed_assets_count": 94,
+    "completed_categories": [
+      "backgrounds (4/4, 100%)",
+      "ui_panels_and_bars (7/7, 100%)",
+      "ui_buttons (12/12, 100%)",
+      "characters_bodies (6/6, 100%)",
+      "npcs_and_bosses (5/5, 100%)",
+      "items_and_potions (5/5, 100%)",
+      "skills_and_fx (9/9, 100%)",
+      "equipment_weapons (20/20, 100%)",
+      "equipment_armor (12/12, 100%)",
+      "characters_heads (10/10, 100%)",
+      "characters_customizations_hairstyles (4/4, 100%)"
+    ],
+    "note": "94 high-res 32-bit pixel art assets fully generated and saved as PNGs across all 11 project directories. 10 of 11 folders are 100% complete."
+  },
+  "assets": {
+    "backgrounds": {
+      "bg_start_menu": {
+        "status": "ready",
+        "path": "assets/backgrounds/bg_start_menu.png",
+        "description": "'The Wooden Gates of Glory' — crooked palisade, tournament flyers, sleeping guard leaning on a spear, chickens pecking dirt."
+      },
+      "bg_char_creator": {
+        "status": "ready",
+        "path": "assets/backgrounds/bg_char_creator.png",
+        "description": "'The Recruit's Dressing Tent' — canvas tent with wooden crate pedestal on left, cracked tin mirror, and weapon racks."
+      },
+      "bg_training_hub": {
+        "status": "ready",
+        "path": "assets/backgrounds/bg_training_hub.png",
+        "description": "'The Dusty Courtyard' — dirt training yard, straw dummies, wooden merchant wagon on left, tournament board on right."
+      },
+      "bg_arena_mudpit": {
+        "status": "ready",
+        "path": "assets/backgrounds/bg_arena_mudpit.png",
+        "description": "'The Mud Pit & Straw Ring' — circular muddy fighting pit enclosed by rope fences and hay bales, cheering peasant spectators eating turnips."
+      }
+    },
+    "ui_panels_and_bars": {
+      "panel_wooden_board": {
+        "status": "ready",
+        "path": "assets/ui/panels_and_bars/panel_wooden_board.png",
+        "description": "Rustic medieval wooden board frame made of weathered timber planks with iron corner rivets and carved borders."
+      },
+      "panel_shop_grid_10slot": {
+        "status": "ready",
+        "path": "assets/ui/panels_and_bars/panel_shop_grid_10slot.png",
+        "description": "Sturdy wooden shelf UI frame with 10 distinct square inventory slots (2 rows of 5) lined with dark velvet and brass studs."
+      },
+      "panel_campaign_chalkboard": {
+        "status": "ready",
+        "path": "assets/ui/panels_and_bars/panel_campaign_chalkboard.png",
+        "description": "Dark slate campaign chalkboard framed in rough timber with 4x5 grid of gladiator bouts, skull doodles, and chalk markings."
+      },
+      "bar_health_green": {
+        "status": "ready",
+        "path": "assets/ui/panels_and_bars/bar_health_green.png",
+        "description": "Iron-framed horizontal status bar filled with vibrant green health gauge and red heart emblem on left."
+      },
+      "bar_mana_blue": {
+        "status": "ready",
+        "path": "assets/ui/panels_and_bars/bar_mana_blue.png",
+        "description": "Iron-framed horizontal status bar filled with sapphire blue mana potion gauge and blue crystal gem on left."
+      },
+      "icon_gold_coin": {
+        "status": "ready",
+        "path": "assets/ui/panels_and_bars/icon_gold_coin.png",
+        "description": "Shiny medieval gold coin stamped with a goofy laughing gladiator head."
+      },
+      "icon_warrior_spirit_flame": {
+        "status": "ready",
+        "path": "assets/ui/panels_and_bars/icon_warrior_spirit_flame.png",
+        "description": "Mystical Warrior Spirit soul flame swirling with cyan-blue/magenta and mini skull."
+      }
+    },
+    "ui_buttons": {
+      "btn_new_game": {
+        "status": "ready",
+        "path": "assets/ui/buttons/btn_new_game.png",
+        "description": "Rustic wooden tavern sign plank with iron corner nails: NEW GAME"
+      },
+      "btn_load_game": {
+        "status": "ready",
+        "path": "assets/ui/buttons/btn_load_game.png",
+        "description": "Rustic wooden tavern sign plank with iron corner nails: LOAD GAME"
+      },
+      "btn_options": {
+        "status": "ready",
+        "path": "assets/ui/buttons/btn_options.png",
+        "description": "Rustic wooden tavern sign plank with gear icon: OPTIONS"
+      },
+      "btn_upgrades": {
+        "status": "ready",
+        "path": "assets/ui/buttons/btn_upgrades.png",
+        "description": "Rustic wooden tavern sign plank with soul flame icon: UPGRADES"
+      },
+      "btn_start_match": {
+        "status": "ready",
+        "path": "assets/ui/buttons/btn_start_match.png",
+        "description": "Red-stained tournament sign plank with crossed swords: START MATCH"
+      },
+      "btn_attack": {
+        "status": "ready",
+        "path": "assets/ui/buttons/btn_attack.png",
+        "description": "Rugged wooden plank button with notched sword: ATTACK"
+      },
+      "btn_skills": {
+        "status": "ready",
+        "path": "assets/ui/buttons/btn_skills.png",
+        "description": "Rugged wooden plank button with magic spark: SKILLS"
+      },
+      "btn_items": {
+        "status": "ready",
+        "path": "assets/ui/buttons/btn_items.png",
+        "description": "Rugged wooden plank button with potion vial: ITEMS"
+      },
+      "btn_surrender": {
+        "status": "ready",
+        "path": "assets/ui/buttons/btn_surrender.png",
+        "description": "Worn wooden plank button with white surrender flag: SURRENDER"
+      },
+      "btn_lock_icon": {
+        "status": "ready",
+        "path": "assets/ui/buttons/btn_lock_icon.png",
+        "description": "Chunky heavy medieval iron padlock icon for shop locking."
+      },
+      "btn_randomize_dice": {
+        "status": "ready",
+        "path": "assets/ui/buttons/btn_randomize_dice.png",
+        "description": "Pair of red and white rolled bone dice button."
+      },
+      "btn_draw_face": {
+        "status": "ready",
+        "path": "assets/ui/buttons/btn_draw_face.png",
+        "description": "Quill paintbrush and ink bottle button for custom face drawing."
+      }
+    },
+    "characters": {
+      "bodies": {
+        "human_male_body": {
+          "status": "ready",
+          "path": "assets/characters/bodies/human_male_body.png",
+          "description": "Front-facing human male gladiator body with peach/tan skin in beige loincloth."
+        },
+        "human_female_body": {
+          "status": "ready",
+          "path": "assets/characters/bodies/human_female_body.png",
+          "description": "Front-facing human female gladiator body with peach/tan skin in beige cloth wraps."
+        },
+        "orc_male_body": {
+          "status": "ready",
+          "path": "assets/characters/bodies/orc_male_body.png",
+          "description": "Front-facing bulky orc male gladiator body in leather loincloth, moss/olive green skin."
+        },
+        "orc_female_body": {
+          "status": "ready",
+          "path": "assets/characters/bodies/orc_female_body.png",
+          "description": "Front-facing fierce warrior orc female gladiator body, olive green skin tones."
+        },
+        "darkelf_male_body": {
+          "status": "ready",
+          "path": "assets/characters/bodies/darkelf_male_body.png",
+          "description": "Front-facing lean lithe dark elf male gladiator body in grey-purple wraps, slate skin."
+        },
+        "darkelf_female_body": {
+          "status": "ready",
+          "path": "assets/characters/bodies/darkelf_female_body.png",
+          "description": "Front-facing agile dark elf female gladiator body in slate wraps, ash grey skin."
+        }
+      },
+      "heads": {
+        "head_human_male_smirk": {
+          "status": "ready",
+          "path": "assets/characters/heads/head_human_male_smirk.png",
+          "description": "Human male gladiator head with peach/tan skin, rounded ears, and crooked smirk."
+        },
+        "head_human_male_missing_tooth": {
+          "status": "ready",
+          "path": "assets/characters/heads/head_human_male_missing_tooth.png",
+          "description": "Human male gladiator head with rounded ears, black eye, and tooth-missing grin."
+        },
+        "head_human_female_freckles": {
+          "status": "ready",
+          "path": "assets/characters/heads/head_human_female_freckles.png",
+          "description": "Human female gladiator head with freckles across cheeks, determined deadpan gaze."
+        },
+        "head_human_female_determined": {
+          "status": "ready",
+          "path": "assets/characters/heads/head_human_female_determined.png",
+          "description": "Battle-hardened human female gladiator head with brow scar and stern glare."
+        },
+        "head_orc_male_tusks": {
+          "status": "ready",
+          "path": "assets/characters/heads/head_orc_male_tusks.png",
+          "description": "Bulky green-skinned orc male head with notched ears, furrowed brow, and protruding lower tusks."
+        },
+        "head_orc_male_bruiser": {
+          "status": "ready",
+          "path": "assets/characters/heads/head_orc_male_bruiser.png",
+          "description": "Orc male with broken nose, chipped lower tusk, and aggressive scowl."
+        },
+        "head_orc_female_fierce": {
+          "status": "ready",
+          "path": "assets/characters/heads/head_orc_female_fierce.png",
+          "description": "Fierce green-skinned orc female head with dark braided hair, facial scars, and subtle tusks."
+        },
+        "head_darkelf_male_sneer": {
+          "status": "ready",
+          "path": "assets/characters/heads/head_darkelf_male_sneer.png",
+          "description": "Slate-ash grey dark elf male head with long horizontal knife-ears, glowing yellow eyes, and sneer."
+        },
+        "head_darkelf_female_glowing_eyes": {
+          "status": "ready",
+          "path": "assets/characters/heads/head_darkelf_female_glowing_eyes.png",
+          "description": "Dark elf female head with horizontal knife-ears, radiant glowing violet eyes, and sharp expression."
+        },
+        "head_darkelf_female_smirk": {
+          "status": "ready",
+          "path": "assets/characters/heads/head_darkelf_female_smirk.png",
+          "description": "Dark elf female head with horizontal knife-ears, glowing yellow eyes, and amused subtle smirk."
+        }
+      },
+      "customizations": {
+        "hair_mohawk": {
+          "status": "ready",
+          "path": "assets/characters/customizations/hair_mohawk.png",
+          "description": "Spiked crimson-red warrior punk mohawk hairstyle overlay."
+        },
+        "hair_bowlcut": {
+          "status": "ready",
+          "path": "assets/characters/customizations/hair_bowlcut.png",
+          "description": "Comical chestnut brown medieval peasant bowl cut overlay."
+        },
+        "hair_silver_braids": {
+          "status": "ready",
+          "path": "assets/characters/customizations/hair_silver_braids.png",
+          "description": "Shimmering silver-white warrior twin braids overlay."
+        },
+        "hair_ponytail": {
+          "status": "ready",
+          "path": "assets/characters/customizations/hair_ponytail.png",
+          "description": "Rugged high black combat ponytail tied with red leather cord."
+        },
+        "acc_eyepatch": {
+          "status": "pending_quota_reset",
+          "path": "assets/characters/customizations/acc_eyepatch.png",
+          "description": "Leather gladiator eyepatch overlay."
+        },
+        "acc_battle_scar": {
+          "status": "pending_quota_reset",
+          "path": "assets/characters/customizations/acc_battle_scar.png",
+          "description": "Jagged combat facial scar overlay."
+        }
+      }
+    },
+    "npcs_and_bosses": {
+      "npc_honest_barnaby": {
+        "status": "ready",
+        "path": "assets/npcs_and_bosses/npc_honest_barnaby.png",
+        "description": "Honest Barnaby: Twitchy comical shopkeeper wearing three trench coats stacked on top of each other with bulging wares, front-facing."
+      },
+      "boss_drill_sergeant_brock": {
+        "status": "ready",
+        "path": "assets/npcs_and_bosses/boss_drill_sergeant_brock.png",
+        "description": "Drill Sergeant Brock: Massive muscular Orc Boss wearing a tin bathtub breastplate, colander helmet, and wooden 'NO LOITERING' sign club."
+      },
+      "summon_badger": {
+        "status": "ready",
+        "path": "assets/npcs_and_bosses/summon_badger.png",
+        "description": "Grumpy stout European badger druid summon with striped face markings, raised claws, deadpan front-facing scowl."
+      },
+      "summon_goose": {
+        "status": "ready",
+        "path": "assets/npcs_and_bosses/summon_goose.png",
+        "description": "Angry white goose druid summon aggressively honking with leafy harness, front-facing."
+      },
+      "silhouette_mystery_enemy": {
+        "status": "ready",
+        "path": "assets/npcs_and_bosses/silhouette_mystery_enemy.png",
+        "description": "Black mystery portrait card silhouette with glowing yellow eyes and golden question mark for locked bouts."
+      }
+    },
+    "equipment": {
+      "weapons": {
+        "wpn_butter_knife": {
+          "status": "ready",
+          "path": "assets/equipment/weapons/wpn_butter_knife.png",
+          "description": "Dull silver metal butter knife weapon with a blob of yellow butter and wooden butter-churn handle."
+        },
+        "wpn_rusty_shiv": {
+          "status": "ready",
+          "path": "assets/equipment/weapons/wpn_rusty_shiv.png",
+          "description": "Crude rusty shiv dagger made of iron shard wrapped with dirty bandages."
+        },
+        "wpn_footpad_dirk": {
+          "status": "ready",
+          "path": "assets/equipment/weapons/wpn_footpad_dirk.png",
+          "description": "Clean steel footpad dirk dagger with curved crossguard and wrapped dark leather hilt."
+        },
+        "wpn_balanced_stiletto": {
+          "status": "ready",
+          "path": "assets/equipment/weapons/wpn_balanced_stiletto.png",
+          "description": "Masterwork assassin stiletto dagger with ornate golden pommel and glowing needle blade."
+        },
+        "wpn_bent_stick_bow": {
+          "status": "ready",
+          "path": "assets/equipment/weapons/wpn_bent_stick_bow.png",
+          "description": "Bent twig stick bow strung with fraying laundry twine and crooked arrow."
+        },
+        "wpn_short_hunting_bow": {
+          "status": "ready",
+          "path": "assets/equipment/weapons/wpn_short_hunting_bow.png",
+          "description": "Carved wooden short hunting bow with leather grip and fletched arrow."
+        },
+        "wpn_ashwood_recurve": {
+          "status": "ready",
+          "path": "assets/equipment/weapons/wpn_ashwood_recurve.png",
+          "description": "Reinforced ashwood recurve bow with polished bronze tips."
+        },
+        "wpn_sniper_longbow": {
+          "status": "ready",
+          "path": "assets/equipment/weapons/wpn_sniper_longbow.png",
+          "description": "Masterwork yew sniper longbow with glowing enchanted bowstring."
+        },
+        "wpn_gnarled_branch": {
+          "status": "ready",
+          "path": "assets/equipment/weapons/wpn_gnarled_branch.png",
+          "description": "Twisted gnarled tree branch magic staff with three green leaves."
+        },
+        "wpn_apprentice_rod": {
+          "status": "ready",
+          "path": "assets/equipment/weapons/wpn_apprentice_rod.png",
+          "description": "Carved apprentice magic wand rod capped with cracked glowing blue orb."
+        },
+        "wpn_acorn_staff": {
+          "status": "ready",
+          "path": "assets/equipment/weapons/wpn_acorn_staff.png",
+          "description": "Druid walking staff crowned with giant magical carved golden acorn."
+        },
+        "wpn_quartz_channeler": {
+          "status": "ready",
+          "path": "assets/equipment/weapons/wpn_quartz_channeler.png",
+          "description": "Ornate wizard grand staff with glowing violet quartz crystal."
+        },
+        "wpn_wood_sword_pot_lid": {
+          "status": "ready",
+          "path": "assets/equipment/weapons/wpn_wood_sword_pot_lid.png",
+          "description": "Splintery wooden toy practice sword paired with dented metal pot lid buckler."
+        },
+        "wpn_chipped_sword_buckler": {
+          "status": "ready",
+          "path": "assets/equipment/weapons/wpn_chipped_sword_buckler.png",
+          "description": "Chipped short iron gladius sword paired with studded leather buckler."
+        },
+        "wpn_footman_kite_shield": {
+          "status": "ready",
+          "path": "assets/equipment/weapons/wpn_footman_kite_shield.png",
+          "description": "Polished steel arming broadsword paired with painted heraldic kite shield."
+        },
+        "wpn_knight_tower_shield": {
+          "status": "ready",
+          "path": "assets/equipment/weapons/wpn_knight_tower_shield.png",
+          "description": "Gilded knightly longsword paired with fortified golden rimmed tower shield."
+        },
+        "wpn_fence_post": {
+          "status": "ready",
+          "path": "assets/equipment/weapons/wpn_fence_post.png",
+          "description": "Heavy splintered wooden fence post with barbed wire coils."
+        },
+        "wpn_butcher_cleaver_axe": {
+          "status": "ready",
+          "path": "assets/equipment/weapons/wpn_butcher_cleaver_axe.png",
+          "description": "Brutal oversized iron butcher meat cleaver battle axe."
+        },
+        "wpn_iron_maul": {
+          "status": "ready",
+          "path": "assets/equipment/weapons/wpn_iron_maul.png",
+          "description": "Heavy two-handed black iron war maul hammer with spiked square head."
+        },
+        "wpn_executioner_greataxe": {
+          "status": "ready",
+          "path": "assets/equipment/weapons/wpn_executioner_greataxe.png",
+          "description": "Double-bitted executioner greataxe with ornate rune engravings."
+        }
+      },
+      "armor": {
+        "arm_burlap_tunic": {
+          "status": "ready",
+          "path": "assets/equipment/armor/arm_burlap_tunic.png",
+          "description": "Scratchy brown potato burlap sack tunic with rope belt."
+        },
+        "arm_patched_leather": {
+          "status": "ready",
+          "path": "assets/equipment/armor/arm_patched_leather.png",
+          "description": "Patched leather jerkin vest with cross-stitching and brass buckles."
+        },
+        "arm_studded_brigandine": {
+          "status": "ready",
+          "path": "assets/equipment/armor/arm_studded_brigandine.png",
+          "description": "Leather brigandine vest reinforced with steel studs and pauldrons."
+        },
+        "arm_shadow_jerkin": {
+          "status": "ready",
+          "path": "assets/equipment/armor/arm_shadow_jerkin.png",
+          "description": "Sleek black/violet assassin shadow jerkin with silver buckles."
+        },
+        "arm_bathrobe": {
+          "status": "ready",
+          "path": "assets/equipment/armor/arm_bathrobe.png",
+          "description": "Plush terrycloth hotel bathrobe with tied belt sash."
+        },
+        "arm_hedge_cloak": {
+          "status": "ready",
+          "path": "assets/equipment/armor/arm_hedge_cloak.png",
+          "description": "Earthy green druid cloak made of woven leaves and bark plates."
+        },
+        "arm_star_robes": {
+          "status": "ready",
+          "path": "assets/equipment/armor/arm_star_robes.png",
+          "description": "Indigo blue mage robe embroidered with gold star constellations."
+        },
+        "arm_silk_vestments": {
+          "status": "ready",
+          "path": "assets/equipment/armor/arm_silk_vestments.png",
+          "description": "Radiant white and gold silk archmage vestments with ruby brooch."
+        },
+        "arm_barrel_suspenders": {
+          "status": "ready",
+          "path": "assets/equipment/armor/arm_barrel_suspenders.png",
+          "description": "Wooden pickle barrel worn as armor held up by suspender straps."
+        },
+        "arm_rusted_chainmail": {
+          "status": "ready",
+          "path": "assets/equipment/armor/arm_rusted_chainmail.png",
+          "description": "Worn dented rusted iron chainmail hauberk with frayed links."
+        },
+        "arm_banded_cuirass": {
+          "status": "ready",
+          "path": "assets/equipment/armor/arm_banded_cuirass.png",
+          "description": "Polished steel banded plate cuirass with brass trim."
+        },
+        "arm_training_plate": {
+          "status": "ready",
+          "path": "assets/equipment/armor/arm_training_plate.png",
+          "description": "Knight champion full plate cuirass with engraved lion crest."
+        }
+      }
+    },
+    "items_and_potions": {
+      "itm_red_berry_juice": {
+        "status": "ready",
+        "path": "assets/items_and_potions/itm_red_berry_juice.png",
+        "description": "Round glass flask with bubbly red berry health juice."
+      },
+      "itm_sparkling_blue_water": {
+        "status": "ready",
+        "path": "assets/items_and_potions/itm_sparkling_blue_water.png",
+        "description": "Triangular glass bottle with glowing effervescent blue mana water."
+      },
+      "itm_grandma_stew": {
+        "status": "ready",
+        "path": "assets/items_and_potions/itm_grandma_stew.png",
+        "description": "Steaming clay bowl of hearty brown stew with wooden spoon."
+      },
+      "itm_greased_lightning": {
+        "status": "ready",
+        "path": "assets/items_and_potions/itm_greased_lightning.png",
+        "description": "Oil can flask with yellow electric sparks and speed lightning."
+      },
+      "itm_pocket_sand": {
+        "status": "ready",
+        "path": "assets/items_and_potions/itm_pocket_sand.png",
+        "description": "Burlap pouch spilling gritty pocket sand with blinding sparkle."
+      }
+    },
+    "skills_and_fx": {
+      "book_rogue_archer": {
+        "status": "ready",
+        "path": "assets/skills_and_fx/book_rogue_archer.png",
+        "description": "Leather-bound skill grimoire with emerald green dagger and arrow."
+      },
+      "book_mage_druid": {
+        "status": "ready",
+        "path": "assets/skills_and_fx/book_mage_druid.png",
+        "description": "Velvet spellbook with glowing crescent moon and leaf."
+      },
+      "book_warrior_barb": {
+        "status": "ready",
+        "path": "assets/skills_and_fx/book_warrior_barb.png",
+        "description": "Iron-bound combat manual embossed with crossed battleaxes."
+      },
+      "book_silly_universal": {
+        "status": "ready",
+        "path": "assets/skills_and_fx/book_silly_universal.png",
+        "description": "Whimsical skill book with jester cap and bells."
+      },
+      "fx_dizzy_birds_stun": {
+        "status": "ready",
+        "path": "assets/skills_and_fx/fx_dizzy_birds_stun.png",
+        "description": "Halo circle of 3 comical yellow tweeting dizzy birds with stars."
+      },
+      "fx_blood_hit_splat": {
+        "status": "ready",
+        "path": "assets/skills_and_fx/fx_blood_hit_splat.png",
+        "description": "Cartoonish crimson red impact burst with flying action droplets."
+      },
+      "fx_fireball_ish": {
+        "status": "ready",
+        "path": "assets/skills_and_fx/fx_fireball_ish.png",
+        "description": "Roaring blazing cartoon fireball with trailing smoke puffs."
+      },
+      "fx_white_surrender_flag": {
+        "status": "ready",
+        "path": "assets/skills_and_fx/fx_white_surrender_flag.png",
+        "description": "Comical white surrender flag fluttering on a stick."
+      },
+      "fx_potted_plant": {
+        "status": "ready",
+        "path": "assets/skills_and_fx/fx_potted_plant.png",
+        "description": "Red clay flower pot with droopy green fern dropping from above."
+      }
+    }
+  }
+}
